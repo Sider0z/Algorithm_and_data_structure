@@ -71,4 +71,6 @@ int desempilha(PILHA *p){
     p->topo -= 1;
     return aux;
     }
+
+    return 0;
 }
